@@ -1,0 +1,142 @@
+* {
+    font-family: Gill Sans, sans-serif;
+    color: black;
+    background-color: #d0f6dd;
+    /* padding: 20px; */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 1600px;
+    border: 5px solid black;
+    margin: auto;
+    text-align: center;
+    z-index: 999;
+}
+
+.index-body {
+    padding-top: 250px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 80px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-links {
+    font-size: 28px;
+}
+
+img {
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: block;
+}
+
+section {
+    border: solid 5px black;
+    margin-top: 20px;
+    width: 1600px;
+    text-align: center;
+}
+
+section article {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 0;
+}
+
+section article p {
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+section article.rules-of-the-game {
+    border-top: solid 40px orange;
+}
+
+section article.history-of-the-game {
+    border-top: solid 40px #72f51b;
+}
+
+section article.meet-up-to-play {
+    border-top: solid 40px #0062ff;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+footer h2 {
+    margin-top: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 5px;
+    display: inline-block;
+    width: 1600px;
+    text-align: center;
+}
+
+a.footer {
+    border: solid 5px black;
+    width: 80px;
+    padding: 5px;
+}
+
+/* form.html */
+
+.homepage {
+    padding-left: 10px;
+    font-size: 48px;
+    /* font-family: papyrus;
+    color: purple; */
+}
+
+.section {
+    padding-top: 0;
+    width: 1600px;
+    padding-bottom: 30px;
+}
+
+section div {
+    border-top: solid 40px red;
+}
+
+form {
+    width: 1580px;
+    margin-top: 20px;
+    border: solid 5px black;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+form div {
+    border-top: solid 40px purple;
+}
+
+input[type="text"] {
+    color: black;
+}
+
+input[type="password"] {
+    color: black;
+}
+
+textarea {
+    color: black;
+}
+
+button {
+    color: black;
+}
